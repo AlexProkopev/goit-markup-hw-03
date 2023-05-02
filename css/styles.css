@@ -330,9 +330,15 @@ body {
 
 .meny-list {
     display: flex;
-    justify-content: space-between;
 
-    margin-top: 72px;
+    
+}
+
+.meny-list .meny-item {
+    margin-right: 24px;
+}
+.meny-list .meny-item:last-child {
+    margin-right: 0;
 }
 
 .section .section-caption {
@@ -343,6 +349,9 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    
+    
+    margin-bottom: 72px;
 }
 
 
@@ -375,16 +384,23 @@ body {
 
 .features-list {
     display: flex;
-    justify-content: space-between;
+    margin-right: 24px;
+    
     
 }
 
-.features-list li {
-    margin-left: 24px;
+.features-list .features-item {
+    margin-right: 24px;
+    width: calc((100% - 72px) / 4);
+    
 }
 
-.features-list li:first-child {
-    margin-left: 0px;
+.features-list .features-item:last-child {
+    margin-right: 0px;
+}
+
+.features-list .features-item:first-child {
+    width: calc((100% - 72px) / 4);
 }
 
 .features-title {
@@ -393,7 +409,7 @@ body {
     color: var(--primary-text-color);
     font-weight: 500;
     letter-spacing: 0.02em;
-
+    margin-bottom: 8px
     
 }
 
@@ -408,6 +424,20 @@ body {
     margin-top: 72px;
 }
 
+.team-list .team-item {
+    margin-right: 24px;
+    width: calc((100% - 72px) / 4);
+
+}
+
+.team-list .team-item:last-child {
+    margin-right: 0px;
+}
+
+.team-list .team-item:first-child {
+    border-radius: 0px 0px 4px 4px;
+}
+
 .section-team {
     background-color: #F4F4FD;
 }
@@ -420,6 +450,8 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+
+    margin-bottom: 72px;
 }
 
 .section-team .section-subject {
@@ -428,6 +460,8 @@ body {
     line-height: 1.2;
     font-weight: 500;
     letter-spacing: 0.02em;
+
+    margin-bottom: 8px;
 }
 
 
@@ -435,11 +469,17 @@ body {
     background-color: #FFFFFF;
 }
 
+.section-team .img-team {
+    margin-bottom: 32px;
+}
+
 /* Стили футтера */
 
 .footer {
     background-color: var(--primary-text-color);
     color: #ffffff;
+
+    padding: 100px 0;
     
     
 }
@@ -455,7 +495,8 @@ body {
     letter-spacing: 0.03em;
     font-weight: 800;
     text-transform: uppercase;
-
+    
+    margin-bottom: 16px;
     
 
 }
