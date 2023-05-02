@@ -84,14 +84,13 @@ body {
 /* Контейнер */
 
 .container {
-    
-    width: 1152px;
+    display: flex;
 
-    padding-left: 12px;
-    padding-right: 12px;
-    
-    margin-left: 156px;
-    margin-right: 156px;
+
+    width: 1158px;
+
+    padding: 0 15px;
+    margin: 0 auto;
     
 }
 
@@ -106,6 +105,20 @@ body {
 }
 
 
+/* Шапка общая */
+
+.header {
+    display: flex;
+    border-bottom: 1px solid #E7E9FC;
+
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
 /* Логотип в шапке */
 
 .logo {
@@ -116,6 +129,9 @@ body {
     letter-spacing: 0.03em;
     font-weight: 800;
     text-transform: uppercase;
+
+    margin-right: 76px;
+    
     
 }
 .logo-text {
@@ -124,24 +140,6 @@ body {
     
 }
 
-/* Шапка общая */
-
-.header {
-    max-width: 1440px;
-    
-    
-}
-
-.header-flex {
-    display: flex;
-    align-items: center;
-    height: 78px;
-
-    border-bottom: 1px solid #E7E9FC;
-
-    
-    
-}
 
 
 
@@ -150,19 +148,35 @@ body {
 
 .nav-links {
     display: flex;
-
     padding-left: 0;
-    margin-left: 70px;
+    
 }
+
+.nav-links .nav-link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-style: normal;
+}
+
+.nav-links .nav-item {
+    margin-right: 40px;
+}
+
+.nav-links .nav-item:last-child {
+    margin-right: 0px;
+}
+
+
 
 .contact-list {
     display: flex;
+    align-items: center;
     
-    margin-left: 332px;
+
+    padding: 24px 0;
     
 }
-
-
 
 .contact-list .contact-link {
     color: var(--title-paragrav-color);
@@ -179,19 +193,7 @@ body {
     margin-right: 0;
 }
 
-.nav-links .nav-link {
-    color:var(--primary-text-color);
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    font-style: normal;
-    }
 
- .nav-links .nav-item {
-    margin-right: 40px;
- }   
-.nav-links .nav-item:last-child {
-    margin-right: 0px;
-}
 
 
  
@@ -427,8 +429,8 @@ body {
 .footer {
     background-color: var(--primary-text-color);
     color: #ffffff;
-    width: 1440px;
-    height: 312px;
+    
+    
 }
 
 /* Логотип футтера */
@@ -443,8 +445,7 @@ body {
     font-weight: 800;
     text-transform: uppercase;
 
-    padding-left: 156px;
-    padding-top: 101.5px;
+    
 
 }
 
@@ -455,6 +456,5 @@ body {
 }
 
 .footer .footer-text {
-    padding-top: 15.5px;
-    padding-left: 156px;
+    
 }
