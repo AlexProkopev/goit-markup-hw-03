@@ -161,6 +161,7 @@ body {
 
 .nav-links .nav-item {
     margin-right: 40px;
+    padding: 24px 0;
 }
 
 .nav-links .nav-item:last-child {
@@ -225,31 +226,42 @@ body {
     font-style: normal;
 }
 
-/* Стили героя сайта */
+/* Стили героя сайта секция*/
 
 .hero { 
     background-color: #2E2F42 ;
 
     width: 1440px;
     height: 600px;
-    text-align: center;
+    
+
+    padding: 188px 0;
     
     
 }
 
 .hero .hero-title  {
+    display: block;
     color: #ffffff;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 
-    padding-top: 188px;
-    padding-bottom: 48px;
-
+    max-width: 496px;
+    
     
 }
 
 .hero .hero-button {
+    display: block;
+    text-align: center;
+
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
     color: #ffffff;
     background-color: var(--button-color); 
     cursor: pointer;
@@ -261,8 +273,9 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
+
     min-width: 169px;
-    padding: 16px 32px;
+    height: 56px;
     gap: 10px;
     
 }
@@ -302,8 +315,7 @@ body {
 /* Общие стили для секций и заголовков */
 
 .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 
@@ -384,6 +396,8 @@ body {
     color: var(--primary-text-color);
     font-weight: 500;
     letter-spacing: 0.02em;
+
+    
 }
 
 
@@ -455,6 +469,3 @@ body {
 
 }
 
-.footer .footer-text {
-    
-}
