@@ -86,7 +86,6 @@ body {
 .container {
     display: flex;
 
-
     width: 1158px;
 
     padding: 0 15px;
@@ -114,7 +113,7 @@ body {
 
 }
 
-.nav {
+.header .nav {
     display: flex;
     align-items: center;
 }
@@ -148,7 +147,7 @@ body {
 
 .nav-links {
     display: flex;
-    padding-left: 0;
+    padding: 24px 0;
     
 }
 
@@ -161,7 +160,7 @@ body {
 
 .nav-links .nav-item {
     margin-right: 40px;
-    padding: 24px 0;
+   
 }
 
 .nav-links .nav-item:last-child {
@@ -176,6 +175,7 @@ body {
     
 
     padding: 24px 0;
+    margin-left: 332px;
     
 }
 
@@ -229,15 +229,9 @@ body {
 /* Стили героя сайта секция*/
 
 .hero { 
-    background-color: #2E2F42 ;
-
-    width: 1440px;
-    height: 600px;
-    
-
     padding: 188px 0;
-    
-    
+
+    background-color: #2E2F42 ;
 }
 
 .hero .hero-title  {
