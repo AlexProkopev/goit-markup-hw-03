@@ -107,7 +107,6 @@ body {
 /* Шапка общая */
 
 .header {
-    display: flex;
     border-bottom: 1px solid #E7E9FC;
 
 
@@ -147,7 +146,7 @@ body {
 
 .nav-links {
     display: flex;
-    padding: 24px 0;
+    
     
 }
 
@@ -169,21 +168,22 @@ body {
 
 
 
-.contact-list {
+.header .contact-list {
     display: flex;
-    align-items: center;
-    
-
     padding: 24px 0;
-    margin-left: 332px;
+    margin-right: auto;
     
 }
+
+
 
 .contact-list .contact-link {
     color: var(--title-paragrav-color);
     font-weight: 400;
     letter-spacing: 0.02em;
     font-style: normal;
+
+    
 }
 
 .contact-list .contact-item {
@@ -224,6 +224,7 @@ body {
 
 .contact {
     font-style: normal;
+    margin-left: auto;
 }
 
 /* Стили героя сайта секция*/
@@ -250,6 +251,7 @@ body {
 .hero .hero-button {
     display: block;
     text-align: center;
+    border: none;
 
     padding-left: 32px;
     padding-right: 32px;
