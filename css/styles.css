@@ -299,6 +299,9 @@ body {
 /* Стили для кнопок на странице Портфолио*/
 
 .section-galery .meny-button {
+    display: block;
+    
+
     background-color: var(--button-portvolio-color);
     color: var(--button-color);
     cursor: pointer;
@@ -307,6 +310,9 @@ body {
     font-size: 16px;
     letter-spacing: 0.04em;
     line-height: 1.5;
+    
+   margin-bottom: 72px;
+   
 }
 
 /* Ховер кнопок страницы Портфлио */
@@ -372,6 +378,11 @@ body {
 
 /* Секция галерея,оформление заголовков и параграфа */
 
+.section-galery {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .section-galery .galery-title {
     color: var(--primary-text-color);
     font-size: 20px;
@@ -380,15 +391,42 @@ body {
     letter-spacing: 0.02em;
 }
 
+.section-galery .galerry-btn-list {
+    display: flex;
+
+   
+}
+
+ .galerry-item {
+    margin-right: 24px;
+}
+
+.galerry-btn-list .galerry-item:last-child {
+    margin-right: 0;
+}
+
+.galery-list {
+    display: flex;
+    flex-flow: row wrap;
+    
+    
+}
+
+.galery-list .galerry-item-card {
+    margin-right: 24px;
+}
+
+.galery-list .galerry-item-card:nth-child(3n + 3) {
+    margin-right: 0;
+}
+
+
 .section-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-paragrav-color);
 }
-
-/* Стили к галерее на странице портфолио */
-
 
 
 .galery-paragrav {
