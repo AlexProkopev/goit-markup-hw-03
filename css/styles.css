@@ -310,8 +310,16 @@ body {
     font-size: 16px;
     letter-spacing: 0.04em;
     line-height: 1.5;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
     
-   margin-bottom: 72px;
+    margin-bottom: 72px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto ;
+
+    padding: 12px 24px;
    
 }
 
@@ -357,6 +365,7 @@ body {
 
 .meny-list .meny-item {
     margin-right: 24px;
+    
 }
 .meny-list .meny-item:last-child {
     margin-right: 0;
@@ -375,12 +384,25 @@ body {
     margin-bottom: 72px;
 }
 
+.features-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-paragrav-color);
+    
+}
+
 
 /* Секция галерея,оформление заголовков и параграфа */
+
 
 .section-galery {
     padding-top: 96px;
     padding-bottom: 120px;
+}
+
+.section-galery .galerry-img {
+    padding-bottom: 32px;
 }
 
 .section-galery .galery-title {
@@ -389,10 +411,13 @@ body {
     line-height: 1.2;
     font-weight: 500;
     letter-spacing: 0.02em;
+
+    padding-bottom: 8px;
 }
 
 .section-galery .galerry-btn-list {
     display: flex;
+    justify-content: center;
 
    
 }
@@ -414,10 +439,12 @@ body {
 
 .galery-list .galerry-item-card {
     margin-right: 24px;
+    margin-bottom: 48px;
 }
 
 .galery-list .galerry-item-card:nth-child(3n + 3) {
     margin-right: 0;
+    
 }
 
 
@@ -426,12 +453,17 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-paragrav-color);
+    text-align: center;
+    padding-bottom: 32px;
+
 }
 
 
 .galery-paragrav {
     color: var(--title-paragrav-color);
     line-height: 1.5;
+
+    
 }
 /* Особенности 1-секция */
 
@@ -452,9 +484,7 @@ body {
     margin-right: 0px;
 }
 
-.features-list .features-item:first-child {
-    width: calc((100% - 72px) / 4);
-}
+
 
 .features-title {
     font-size: 20px;
@@ -466,7 +496,9 @@ body {
     
 }
 
-
+.features-text-item {
+    width: 264px;
+}
 
 /* CТили для челенов команды 3-Секция*/
 
@@ -514,6 +546,7 @@ body {
     line-height: 1.2;
     font-weight: 500;
     letter-spacing: 0.02em;
+    text-align: center;
 
     margin-bottom: 8px;
 }
@@ -523,9 +556,8 @@ body {
     background-color: #FFFFFF;
 }
 
-.section-team .img-team {
-    margin-bottom: 32px;
-}
+
+
 
 /* Стили футтера */
 
@@ -565,3 +597,11 @@ body {
     max-width: 264px;
 }
 
+.team-card-content {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
+}
