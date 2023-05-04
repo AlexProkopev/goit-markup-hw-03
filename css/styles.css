@@ -268,10 +268,10 @@ body {
   letter-spacing: 0.04em;
   line-height: 1.5;
   border: 1px solid #E7E9FC;
-    border-radius: 4px;
+  border-radius: 4px;
   
 
-  margin-bottom: 72px;
+  
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
@@ -285,6 +285,7 @@ body {
 .section-galery .meny-button:focus {
   background-color: var(--acsent-color);
   color: #ffffff;
+  border: 1px solid transparent;
 }
 
 /* Общие стили для секций и заголовков */
@@ -346,9 +347,7 @@ body {
   padding-bottom: 120px;
 }
 
-.section-galery .galerry-img {
-  
-}
+
 
 .section-galery .galery-title {
   color: var(--primary-text-color);
@@ -357,16 +356,18 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
 
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .section-galery .galerry-btn-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 72px
 }
 
 .galerry-item {
   margin-right: 24px;
+  
 }
 
 .galerry-btn-list .galerry-item:last-child {
@@ -375,12 +376,13 @@ body {
 
 .galery-list {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
+  row-gap: 48px;
 }
 
 .galery-list .galerry-item-card {
   margin-right: 24px;
-  margin-bottom: 48px;
+  
 }
 
 .galery-list .galerry-card-content {
@@ -390,11 +392,14 @@ body {
     padding-right: 16px;
 
     border: 1px solid #E7E9FC;
+    border-top: none;
 }
 
 .galery-list .galerry-item-card:nth-child(3n + 3) {
   margin-right: 0;
 }
+
+
 
 .section-text {
   font-size: 16px;
@@ -472,7 +477,7 @@ body {
 
 .section-team {
   background-color: #f4f4fd;
-  padding-top: 0;
+  
 }
 
 .team-title {
