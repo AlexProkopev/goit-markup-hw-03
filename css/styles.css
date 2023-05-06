@@ -212,7 +212,7 @@ body {
   color: var(--acsent-color);
 }
 
-/* ------------------------ Навигация по сайту+контактная информация в активе --------------*/
+/* ------------------------ Навигация по сайту + контактная информация в активе --------------*/
 
 .nav-links .nav-link:active,
 
@@ -289,7 +289,7 @@ body {
 
 .features-list {
   display: flex;
-  margin-right: 24px;
+ 
 }
 
 
@@ -351,12 +351,12 @@ body {
 }
 
 
-/* Секция галерея,оформление заголовков и параграфа */
 
 
 
 
-/* CТили для челенов команды 3-Секция*/
+
+/* ЧЕТВЕРТАЯ СЕКЦИЯ - КОМАНДА*/
 
 .section-team {
   background-color: #f4f4fd;
@@ -411,7 +411,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-paragrav-color);
   text-align: center;
-  padding-bottom: 32px;
+  
 }
 
 
@@ -566,3 +566,4 @@ body {
   color: var(--title-paragrav-color);
   line-height: 1.5;
 }
+
